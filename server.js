@@ -12,9 +12,8 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-MONGODB_URI = `mongodb+srv://${process.env.db_userName},:${process.env.db_password}@cluster0.gjyrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 // create db connection to MongoDb
-mongoose.connect(MONGODB_URI || "mongodb://localhost/workoutDb", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutDb", {
   useNewUrlParser: true,
   useFindAndModify: false,
 });
