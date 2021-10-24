@@ -10,7 +10,7 @@ router.get(`/`, async (req, res) => {
         },
       },
     ])
-      .sort({ day: 1 })
+      
     res.status(200).json(dbWorkouts);
   } catch (error) {
     res.status(400).json(error);
