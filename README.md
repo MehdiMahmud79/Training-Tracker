@@ -1,11 +1,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Workout Tracker
+# Training Tracker
 
-![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Workout-Tracker)
-![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Workout-Tracker)
-![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Workout-Tracker)
+![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Training-Tracker)
+![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Training-Tracker)
+![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Training-Tracker)
 
 In this app you are able to view create and track daily workouts using MongoDb Atlas and deployed to Heroku. You also be able to log multiple exercises in a workout on a given day.
 
@@ -22,5 +22,5 @@ The following image shows a mock-up of the app's appearance and functionality:
 ![Test results using jest.](./assets/screen.gif)
 
 ## Websites
-* Github: https://github.com/MehdiMahmud79/Workout-Tracker
+* Github: https://github.com/MehdiMahmud79/Training-Tracker
 * Live: https://training-tracker-uk.herokuapp.com/
