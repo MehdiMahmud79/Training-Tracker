@@ -5,7 +5,7 @@ router.get(`/`, async (req, res) => {
   try {
     const dbWorkouts = await Workout.aggregate([
       {
-        $group: {
+        $addFields: {
           totalDuration: { $sum: "$exercises.duration" },
         },
       },
