@@ -11,7 +11,7 @@ const { Workout } = require("../Models");
 // });
 router.get(`/`, async (req, res) => {
   try {
-    var dbWorkouts = await Workout.aggregate([
+    const dbWorkouts = await Workout.aggregate([
       {
         $addFields: {
           totalDuration: { $sum: "$exercises.duration" },
@@ -52,7 +52,7 @@ router.put("/:id", async (req, res) => {
 
 router.get(`/range`, async (req, res) => {
   try {
-    var dbWorkouts = await Workout.aggregate([
+    const dbWorkouts = await Workout.aggregate([
       {
         $addFields: {
           totalDuration: { $sum: "$exercises.duration" },
